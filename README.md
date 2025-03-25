@@ -1,31 +1,17 @@
 # Hyperbolic Automated Chat Bot
-
-A Python script that automatically generates random questions and sends them to the Hyperbolic API to get responses from the Meta-Llama-3.1-8B-Instruct model.
-
-## Features
-
-- Generates random questions across various topics
-- Sends requests to the Hyperbolic API
-- Configurable response parameters
-- Random timing between requests (60-120 seconds)
-- Graceful shutdown with CTRL+C
-
-## Prerequisites
-
-- Python 3.x
-- `requests` library
-- Hyperbolic API key with sufficient balance
-
 ## Installation
 
 1. Clone this repository or download the script
 2. Install the required package:
 
 ```
-pip install requests
+pip install -r requirements.txt
 ```
 
-3. Add your API key to the script by replacing `YOUR_API_KEY_HERE` in the `HEADERS` dictionary
+3. Add your api key 
+```
+nano .env
+```
 
 ## Getting an API Key
 
