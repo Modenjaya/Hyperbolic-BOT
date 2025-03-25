@@ -22,9 +22,7 @@ A Python script that automatically generates random questions and sends them to 
 2. Install the required package:
 
 ```
-
 pip install requests
-
 ```
 
 3. Add your API key to the script by replacing `YOUR_API_KEY_HERE` in the `HEADERS` dictionary
@@ -40,9 +38,7 @@ pip install requests
 Simply run the script:
 
 ```
-
 python main.py
-
 ```
 
 The script will:
